@@ -6,5 +6,5 @@ RUN apt install -y apache2-utils
 RUN apt clean
 RUN apt install -y zip unzip
 CMD [“apache2ctl”, “-D”, “FOREGROUND”]
-EXPOSE 80
+EXPOSE 8080
 
